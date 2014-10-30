@@ -10,6 +10,15 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var messageLabel: UILabel!
+    @IBOutlet weak var nameLabel: UILabel!
+    
+    @IBOutlet weak var nameTextBox: UITextField!
+    
+    @IBOutlet weak var messageTextBox: UITextField!
+    
+    @IBOutlet weak var sendButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -21,5 +30,17 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func SendClick(sender: AnyObject) {
+        messageLabel.text = messageTextBox.text
+        messageLabel.hidden=false
+        messageTextBox.resignFirstResponder()
+        messageTextBox.text=""
+        nameLabel.text = nameTextBox.text
+        nameLabel.hidden=false
+        nameLabel.textColor = UIColor.blueColor()
+        nameTextBox.text=""
+        nameTextBox.resignFirstResponder()
+        
+    }
 }
 

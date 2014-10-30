@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		422EB6FA1A0212F5007DF599 /* IMG_4348.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 422EB6F91A0212F5007DF599 /* IMG_4348.JPG */; };
+		422EB6FC1A021301007DF599 /* Unknown.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 422EB6FB1A021301007DF599 /* Unknown.jpeg */; };
 		42CA2DBF1A012BAF000225D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CA2DBE1A012BAF000225D7 /* AppDelegate.swift */; };
 		42CA2DC11A012BAF000225D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CA2DC01A012BAF000225D7 /* ViewController.swift */; };
 		42CA2DC41A012BAF000225D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42CA2DC21A012BAF000225D7 /* Main.storyboard */; };
@@ -26,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		422EB6F91A0212F5007DF599 /* IMG_4348.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_4348.JPG; sourceTree = "<group>"; };
+		422EB6FB1A021301007DF599 /* Unknown.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Unknown.jpeg; sourceTree = "<group>"; };
 		42CA2DB91A012BAF000225D7 /* Prova2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Prova2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42CA2DBD1A012BAF000225D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		42CA2DBE1A012BAF000225D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -90,6 +94,8 @@
 		42CA2DBC1A012BAF000225D7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				422EB6FB1A021301007DF599 /* Unknown.jpeg */,
+				422EB6F91A0212F5007DF599 /* IMG_4348.JPG */,
 				42CA2DBD1A012BAF000225D7 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -194,7 +200,9 @@
 			files = (
 				42CA2DC41A012BAF000225D7 /* Main.storyboard in Resources */,
 				42CA2DC91A012BAF000225D7 /* LaunchScreen.xib in Resources */,
+				422EB6FA1A0212F5007DF599 /* IMG_4348.JPG in Resources */,
 				42CA2DC61A012BAF000225D7 /* Images.xcassets in Resources */,
+				422EB6FC1A021301007DF599 /* Unknown.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +413,7 @@
 				42CA2DDA1A012BAF000225D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		42CA2DDB1A012BAF000225D7 /* Build configuration list for PBXNativeTarget "Prova2Tests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +422,7 @@
 				42CA2DDD1A012BAF000225D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
